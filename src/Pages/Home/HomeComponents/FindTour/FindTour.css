@@ -15,12 +15,7 @@
 
 .parallax::before {
   content: "";
-  background-color: rgba(
-    1,
-    1,
-    1,
-    0.3
-  ); /* Adjust the opacity here (0.5 for 50% black) */
+  /* Adjust the opacity here (0.5 for 50% black) */
   position: absolute;
   top: 0;
   left: 0;

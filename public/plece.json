@@ -1,0 +1,90 @@
+[
+  {
+    "destination": "Paris, France",
+    "description": "Experience the romantic charm of Paris, visit the Eiffel Tower, and indulge in delicious French cuisine.",
+    "image": "paris.jpg",
+    "rating": 4.8,
+    "price": "$1200",
+    "days": 5
+  },
+  {
+    "destination": "Paris, France",
+    "description": "Experience the romantic charm of Paris, visit the Eiffel Tower, and indulge in delicious French cuisine.",
+    "image": "paris.jpg",
+    "rating": 4.8,
+    "price": "$1200",
+    "days": 5
+  },
+  {
+    "destination": "Tokyo, Japan",
+    "description": "Explore the bustling streets of Tokyo, discover ancient temples, and savor authentic sushi.",
+    "image": "tokyo.jpg",
+    "rating": 4.6,
+    "price": "$1500",
+    "days": 7
+  },
+  {
+    "destination": "Rome, Italy",
+    "description": "Immerse yourself in the history of Rome, visit the Colosseum, and enjoy delicious Italian gelato.",
+    "image": "rome.jpg",
+    "rating": 4.7,
+    "price": "$1100",
+    "days": 4
+  },
+  {
+    "destination": "New York City, USA",
+    "description": "Experience the vibrant culture of New York City, explore Central Park, and see a Broadway show.",
+    "image": "nyc.jpg",
+    "rating": 4.9,
+    "price": "$1800",
+    "days": 6
+  },
+  {
+    "destination": "Cairo, Egypt",
+    "description": "Discover the ancient wonders of Cairo, explore the pyramids, and cruise the Nile River.",
+    "image": "cairo.jpg",
+    "rating": 4.5,
+    "price": "$1400",
+    "days": 5
+  },
+  {
+    "destination": "Sydney, Australia",
+    "description": "Enjoy the stunning beaches of Sydney, visit the Sydney Opera House, and go surfing in Bondi Beach.",
+    "image": "sydney.jpg",
+    "rating": 4.8,
+    "price": "$1600",
+    "days": 7
+  },
+  {
+    "destination": "Cape Town, South Africa",
+    "description": "Experience the natural beauty of Cape Town, go on a safari, and hike Table Mountain.",
+    "image": "capetown.jpg",
+    "rating": 4.7,
+    "price": "$1700",
+    "days": 6
+  },
+  {
+    "destination": "Rio de Janeiro, Brazil",
+    "description": "Samba your way through Rio de Janeiro, relax on Copacabana Beach, and visit Christ the Redeemer.",
+    "image": "rio.jpg",
+    "rating": 4.6,
+    "price": "$1300",
+    "days": 5
+  },
+  {
+    "destination": "Bali, Indonesia",
+    "description": "Escape to the tropical paradise of Bali, explore rice terraces, and enjoy the Balinese culture.",
+    "image": "bali.jpg",
+    "rating": 4.9,
+    "price": "$1500",
+    "days": 7
+  },
+  {
+    "destination": "Machu Picchu, Peru",
+    "description": "Embark on a journey to Machu Picchu, hike the Inca Trail, and explore ancient ruins.",
+    "image": "machu-picchu.jpg",
+    "rating": 4.8,
+    "price": "$1900",
+    "days": 6
+  }
+]

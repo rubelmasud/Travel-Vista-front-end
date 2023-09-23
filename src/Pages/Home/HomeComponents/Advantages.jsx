@@ -7,7 +7,7 @@ function Advantages() {
     <div>
       <div className="md:w-7/12 mx-auto text-center ">
         <p className="lg:text-xl">Why People Choose Us</p>
-        <h1 className="lg:text-5xl text-3xl font-bold">
+        <h1 className="lg:text-4xl text-3xl font-bold">
           <span className="text-black">Our</span>
           <span className="text-[#FF4F10EB]"> Advantages</span>
         </h1>

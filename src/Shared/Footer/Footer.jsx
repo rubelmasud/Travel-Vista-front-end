@@ -1,5 +1,121 @@
+import { FaLocationArrow } from "react-icons/fa";
+import "./Footer.css";
+import { CiFacebook, CiLinkedin } from "react-icons/ci";
+import { TiSocialTwitterCircular } from "react-icons/ti";
+
 const Footer = () => {
-  return <div className="h-32">Footer css</div>;
+  return (
+    <div className="">
+      <footer className="p-12 grid lg:grid-cols-3 gap-20 mt-20 justify-between  bg-slate-200">
+        <div className="flex flex-col gap-4">
+          <h1 className="text-4xl font-mono font-bold">Travel Vista</h1>
+          <p>
+            Pellentesque convallis, diam et feugiat volutpat, tellus ligula
+            consequat augue, quis malesuada nisi ante nec metus. Sed id pretium
+            nunc. Mauris vitae porttitor tortor. Fusce aliquet ac metus eget
+            egestas.
+          </p>
+          <div className="flex justify-start items-center">
+            <input
+              type="text"
+              placeholder="inter your email"
+              className="uppercase border outline-none bg-slate-100  h-10"
+            />
+            <span className=" p-3 bg-orange-600 text-white hover:text-gray-500 duration-500">
+              <FaLocationArrow size={18} className=" " />
+            </span>
+          </div>
+        </div>
+        <div className="flex flex-col gap-4">
+          <div className="">
+            <h2 className="text-2xl ">Quick Links</h2>
+            <div className="w-[50px] h-[2px] bg-orange-600"></div>
+          </div>
+
+          <div className="flex gap-10 list-none">
+            <div className="">
+              <li>
+                <a href="">Home</a>
+              </li>
+              <li>
+                <a href="">About</a>
+              </li>
+              <li>
+                <a href="">Tour Of Trips</a>
+              </li>
+              <li>
+                <a href="">Find Your Location</a>
+              </li>
+              <li>
+                <a href="">Contact Us.</a>
+              </li>
+              <li>
+                <a href="">Terms & conditions</a>
+              </li>
+            </div>
+            <div className="">
+              <li>
+                <a href="">Praivcy Policy</a>
+              </li>
+              <li>
+                <a href="">Testimonials.</a>
+              </li>
+              <li>
+                <a href="">Terms & conditions</a>
+              </li>
+              <li>
+                <a href="">Praivcy Policy</a>
+              </li>
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col gap-4">
+          <div className="">
+            <h2 className="text-2xl ">Recent Post</h2>
+            <div className="w-[50px] h-[2px] bg-orange-600"></div>
+          </div>
+          <div className="flex justify-start items-center gap-4">
+            <img
+              className="w-20 h-16"
+              src="https://i.ibb.co/mXTqW5q/download.jpg"
+              alt=""
+            />
+            <div className="">
+              <p>
+                Pellentesque convallis, diam et feugiat volutpat, tellus ligula
+                c
+              </p>
+              <p className="text-orange-600 font-semibold">Sep 09, 2019</p>
+            </div>
+          </div>
+          <div className="flex justify-start items-center gap-4">
+            <img
+              className="w-20 h-16"
+              src="https://i.ibb.co/mXTqW5q/download.jpg"
+              alt=""
+            />
+            <div className="">
+              <p>
+                Pellentesque convallis, diam et feugiat volutpat, tellus ligula
+                c
+              </p>
+              <p className="text-orange-600 font-semibold">Sep 09, 2019</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <div className="bg-slate-300 px-12 flex justify-between items-center py-6">
+        <h1 className="text-1xl font-semibold">
+          And IT Themes © 2019. All Rights Reserveds
+        </h1>
+        <div className="flex gap-2 justify-end font-mono font-extrabold">
+          <CiFacebook size={32} />
+          <TiSocialTwitterCircular size={32} />
+          <CiLinkedin size={32} />
+        </div>
+      </div>
+    </div>
+  );
 };
 
 export default Footer;

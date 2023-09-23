@@ -6,7 +6,7 @@ const PlaceSearch = () => {
       {/* <h2 className="uppercase bg-[#FF4F10EB] px-4 py-2 w-fit text-white">
         Search tour
       </h2> */}
-      <div className="md:w-10/12 w-full md:mx-auto  py-6 grid md:grid-cols-4 grid-cols-2 lg:text-[13px] text-xs gap-2  justify-between items-center">
+      <div className="md:w-10/12 w-full md:mx-auto  pt-10 py-3 grid md:grid-cols-4 grid-cols-2 lg:text-[13px] text-xs gap-2  justify-between items-center">
         <div className="flex justify-center items-center gap-4 border-2 py-2 px-4 font-semibold text-slate-700">
           <FaLocationArrow />
           <select className="bg-transparent">
