@@ -17,7 +17,7 @@ function Advantages() {
           condimentum.
         </p>
       </div>
-      <div className="grid lg:grid-cols-4 justify-between items-center gap-6 px-10 mt-10">
+      <div className="grid lg:grid-cols-4 md:grid-cols-2  justify-between items-center gap-6 px-10 mt-10">
         <div className="">
           <div className=" ">
             <BsAirplaneFill

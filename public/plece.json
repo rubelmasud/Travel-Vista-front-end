@@ -1,16 +1,9 @@
 [
+  
   {
     "destination": "Paris, France",
     "description": "Experience the romantic charm of Paris, visit the Eiffel Tower, and indulge in delicious French cuisine.",
-    "image": "paris.jpg",
-    "rating": 4.8,
-    "price": "$1200",
-    "days": 5
-  },
-  {
-    "destination": "Paris, France",
-    "description": "Experience the romantic charm of Paris, visit the Eiffel Tower, and indulge in delicious French cuisine.",
-    "image": "paris.jpg",
+    "image": "https://img.freepik.com/free-photo/eiffel-tower-with-bridge-river-seine-paris-france_649448-4968.jpg?size=626&ext=jpg&ga=GA1.1.694185806.1694141924&semt=ais",
     "rating": 4.8,
     "price": "$1200",
     "days": 5
@@ -18,7 +11,7 @@
   {
     "destination": "Tokyo, Japan",
     "description": "Explore the bustling streets of Tokyo, discover ancient temples, and savor authentic sushi.",
-    "image": "tokyo.jpg",
+    "image": "https://img.freepik.com/premium-photo/asian-girl-traveler-holding-professional-favorite-camera-standing-out-fushimi-inari-shrine-near-stairs-young-female-photographer-carrying-backpack-taking-picture-japanese-lifestyle-sunny-day_678158-7431.jpg?size=626&ext=jpg&ga=GA1.1.694185806.1694141924&semt=ais",
     "rating": 4.6,
     "price": "$1500",
     "days": 7
@@ -26,7 +19,7 @@
   {
     "destination": "Rome, Italy",
     "description": "Immerse yourself in the history of Rome, visit the Colosseum, and enjoy delicious Italian gelato.",
-    "image": "rome.jpg",
+    "image": "https://img.freepik.com/free-photo/roman-coliseum_181624-30510.jpg?size=626&ext=jpg&ga=GA1.1.694185806.1694141924&semt=ais",
     "rating": 4.7,
     "price": "$1100",
     "days": 4
@@ -34,7 +27,7 @@
   {
     "destination": "New York City, USA",
     "description": "Experience the vibrant culture of New York City, explore Central Park, and see a Broadway show.",
-    "image": "nyc.jpg",
+    "image": "https://img.freepik.com/free-photo/beautiful-manhattan-bridge-new-york-usa_181624-48458.jpg?size=626&ext=jpg&ga=GA1.1.694185806.1694141924&semt=ais",
     "rating": 4.9,
     "price": "$1800",
     "days": 6
@@ -42,7 +35,7 @@
   {
     "destination": "Cairo, Egypt",
     "description": "Discover the ancient wonders of Cairo, explore the pyramids, and cruise the Nile River.",
-    "image": "cairo.jpg",
+    "image": "https://img.freepik.com/premium-photo/travel-blogger-woman-takes-selfie-photos-among-pharaoh-statues-ruins-famous-karnak-temple-luxor-egypt_984126-7334.jpg?size=626&ext=jpg&ga=GA1.2.694185806.1694141924&semt=ais",
     "rating": 4.5,
     "price": "$1400",
     "days": 5
@@ -50,7 +43,7 @@
   {
     "destination": "Sydney, Australia",
     "description": "Enjoy the stunning beaches of Sydney, visit the Sydney Opera House, and go surfing in Bondi Beach.",
-    "image": "sydney.jpg",
+    "image": "https://img.freepik.com/premium-photo/sydney-skyline-sunrise-sunrise-overlooking-famous-building-bridge-sydney-australia_745352-303.jpg?size=626&ext=jpg&ga=GA1.1.694185806.1694141924&semt=ais",
     "rating": 4.8,
     "price": "$1600",
     "days": 7
@@ -58,7 +51,7 @@
   {
     "destination": "Cape Town, South Africa",
     "description": "Experience the natural beauty of Cape Town, go on a safari, and hike Table Mountain.",
-    "image": "capetown.jpg",
+    "image": "https://img.freepik.com/premium-photo/lion-s-head-mountain-apartment-buildings-coast-cape-town_160696-273.jpg?size=626&ext=jpg&ga=GA1.1.694185806.1694141924&semt=ais",
     "rating": 4.7,
     "price": "$1700",
     "days": 6
@@ -66,7 +59,7 @@
   {
     "destination": "Rio de Janeiro, Brazil",
     "description": "Samba your way through Rio de Janeiro, relax on Copacabana Beach, and visit Christ the Redeemer.",
-    "image": "rio.jpg",
+    "image": "https://img.freepik.com/free-photo/vertical-shot-niteroi-contemporary-art-museum-brazil_181624-27249.jpg?size=626&ext=jpg&ga=GA1.1.694185806.1694141924&semt=ais",
     "rating": 4.6,
     "price": "$1300",
     "days": 5
@@ -74,7 +67,7 @@
   {
     "destination": "Bali, Indonesia",
     "description": "Escape to the tropical paradise of Bali, explore rice terraces, and enjoy the Balinese culture.",
-    "image": "bali.jpg",
+    "image": "https://img.freepik.com/free-photo/woman-walking-big-entrance-gate-bali-indonesia_335224-378.jpg?size=626&ext=jpg&ga=GA1.1.694185806.1694141924&semt=ais",
     "rating": 4.9,
     "price": "$1500",
     "days": 7
@@ -82,7 +75,7 @@
   {
     "destination": "Machu Picchu, Peru",
     "description": "Embark on a journey to Machu Picchu, hike the Inca Trail, and explore ancient ruins.",
-    "image": "machu-picchu.jpg",
+    "image": "https://img.freepik.com/premium-photo/female-traveler-sitting-cliff-looking-inca-ruins-machu-picchu-peru_76000-2817.jpg?size=626&ext=jpg&ga=GA1.1.694185806.1694141924&semt=ais",
     "rating": 4.8,
     "price": "$1900",
     "days": 6

@@ -6,7 +6,7 @@ import { TiSocialTwitterCircular } from "react-icons/ti";
 const Footer = () => {
   return (
     <div className="">
-      <footer className="p-12 grid lg:grid-cols-3 gap-20 mt-20 justify-between  bg-slate-200">
+      <footer className="p-12 grid lg:grid-cols-3 lg:gap-20 gap-6 mt-20 justify-between  bg-slate-200">
         <div className="flex flex-col gap-4">
           <h1 className="text-4xl font-mono font-bold">Travel Vista</h1>
           <p>
@@ -19,9 +19,9 @@ const Footer = () => {
             <input
               type="text"
               placeholder="inter your email"
-              className="uppercase border outline-none bg-slate-100  h-10"
+              className="uppercase border outline-none bg-slate-100  h-[37px] px-4"
             />
-            <span className=" p-3 bg-orange-600 text-white hover:text-gray-500 duration-500">
+            <span className=" p-2 bg-orange-600 text-white hover:text-gray-500 duration-500">
               <FaLocationArrow size={18} className=" " />
             </span>
           </div>
@@ -76,7 +76,7 @@ const Footer = () => {
           </div>
           <div className="flex justify-start items-center gap-4">
             <img
-              className="w-20 h-16"
+              className="w-20 h-16 opacity-60 hover:opacity-100 duration-500"
               src="https://i.ibb.co/mXTqW5q/download.jpg"
               alt=""
             />
@@ -90,7 +90,7 @@ const Footer = () => {
           </div>
           <div className="flex justify-start items-center gap-4">
             <img
-              className="w-20 h-16"
+              className="w-20 h-16 opacity-60 hover:opacity-100 duration-500"
               src="https://i.ibb.co/mXTqW5q/download.jpg"
               alt=""
             />
@@ -104,14 +104,17 @@ const Footer = () => {
           </div>
         </div>
       </footer>
-      <div className="bg-slate-300 px-12 flex justify-between items-center py-6">
+      <div className="bg-slate-300 px-12 flex justify-between items-center py-4">
         <h1 className="text-1xl font-semibold">
           And IT Themes © 2019. All Rights Reserveds
         </h1>
         <div className="flex gap-2 justify-end font-mono font-extrabold">
-          <CiFacebook size={32} />
-          <TiSocialTwitterCircular size={32} />
-          <CiLinkedin size={32} />
+          <CiFacebook size={40} className="hover:-translate-y-4 duration-700" />
+          <TiSocialTwitterCircular
+            size={40}
+            className="hover:-translate-y-4 duration-700"
+          />
+          <CiLinkedin size={40} className="hover:-translate-y-4 duration-700" />
         </div>
       </div>
     </div>

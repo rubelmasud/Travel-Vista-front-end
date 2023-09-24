@@ -15,7 +15,7 @@
 
 .navbar.scrolling {
   background-color: #f8fafc; /* Background color when scrolling */
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
   color: orangered;
 }
 
@@ -36,9 +36,9 @@
 
 .nav-links li {
   text-decoration: none;
-  font-size: 18px;
+  font-size: 17px;
   padding: 10px;
-  margin: 0 10px;
+  margin: 0 5px;
   cursor: pointer;
   position: relative;
   transition: color 0.3s;
