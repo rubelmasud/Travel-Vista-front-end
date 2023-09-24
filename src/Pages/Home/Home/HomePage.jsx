@@ -4,6 +4,7 @@ import Discount from "../HomeComponents/Discount/Discount";
 import FindTour from "../HomeComponents/FindTour/FindTour";
 import PlaceSearch from "../HomeComponents/PlaceSearch";
 import Places from "../HomeComponents/Places/Places";
+import Agents from "../HomeComponents/TravelAgentSection/Agents";
 
 const HomePage = () => {
   return (
@@ -14,6 +15,7 @@ const HomePage = () => {
       <FindTour />
       <Places />
       <Discount />
+      <Agents />
     </>
   );
 };

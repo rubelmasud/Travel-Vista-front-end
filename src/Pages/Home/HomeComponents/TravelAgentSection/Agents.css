@@ -1,0 +1,60 @@
+/* Agents.css */
+.cart {
+  position: relative;
+  overflow: hidden;
+}
+
+.cart img {
+  width: 100%;
+  height: 350px;
+  transition: filter 0.3s ease;
+}
+
+.cart:hover img {
+  filter: blur(5px); /* Apply blur to the image on hover */
+}
+
+.cart .hidden {
+  position: absolute;
+  top: 80%;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transform: translateY(-50%);
+  transition: opacity 0.3s ease; /* Add transition for opacity */
+  background: rgba(114, 110, 110, 0.8);
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.cart:hover .hidden {
+  opacity: 1;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  gap: 2px;
+  width: 100%;
+  color: white;
+  font-size: 24px; /* Adjust the icon size as needed */
+}
+
+.icon {
+  margin: 0 5px;
+}
+.icon:hover {
+  translate: 0px -5px;
+  color: rgb(245, 141, 23);
+  transition-duration: 0.3s;
+}
+
+.info {
+  color: white;
+  width: 100%;
+  font-size: 18px; /* Adjust the font size as needed */
+}
