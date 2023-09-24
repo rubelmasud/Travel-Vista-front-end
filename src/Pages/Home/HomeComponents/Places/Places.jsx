@@ -7,7 +7,7 @@ const Places = () => {
   const [showMore, setShowMore] = useState(false);
 
   useEffect(() => {
-    fetch("/public/plece.json")
+    fetch("/plece.json")
       .then((res) => res.json())
       .then((places) => {
         console.log(places);
