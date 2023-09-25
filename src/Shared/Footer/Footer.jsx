@@ -6,7 +6,7 @@ import { TiSocialTwitterCircular } from "react-icons/ti";
 const Footer = () => {
   return (
     <div className="">
-      <footer className="p-12 grid lg:grid-cols-3 lg:gap-20 gap-6 mt-20 justify-between  bg-slate-200">
+      <footer className="p-12 grid lg:grid-cols-3 md:grid-cols-2 lg:gap-20 gap-6 mt-20 justify-between  bg-slate-200">
         <div className="flex flex-col gap-4">
           <h1 className="text-4xl font-mono font-bold">Travel Vista</h1>
           <p>

@@ -44,7 +44,7 @@
   transition: color 0.3s;
 }
 .nav-links li:hover {
-  color: black;
+  color: orangered;
   transition: transform 0.5s;
 }
 

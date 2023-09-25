@@ -18,7 +18,7 @@ const Agents = () => {
           condimentum.
         </p>
       </div>
-      <div className="container grid md:grid-cols-3 justify-between items-center gap-12 p-12">
+      <div className=" grid lg:grid-cols-3 md:grid-cols-2 justify-between items-center gap-12 p-12">
         <div className="cart shadow-xl ">
           <img
             className=" bg-slate-100 "

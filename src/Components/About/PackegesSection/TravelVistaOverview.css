@@ -1,0 +1,29 @@
+.bg-image {
+  background-image: url("https://i.ibb.co/xMVzhqW/aaron-burden-c-Eukkv42-O40-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+}
+
+.text-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  height: 100%;
+}
+
+@media screen and (max-width: 780px) {
+  .bg-image {
+    background-image: none;
+    background-color: #e2e8f0;
+    height: auto;
+    padding: 20px 0;
+    color: black;
+  }
+  .text-div {
+    color: black;
+  }
+}
