@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "destination": "Paris",
+    "country": "France",
+    "description": "Explore world - These popular destinations have a lot to offer.",
+    "main_attractions": ["Eiffel Tower", "Louvre Museum", "Notre-Dame Cathedral"],
+    "best_time_to_visit": "Spring (April to June) and Fall (September to November)",
+    "currency": "Euro (EUR)",
+    "language": "French",
+    "local_dishes": ["Croissant", "Escargot", "Coq au Vin"],
+    "quantity": 1000
+  },
+  {
+    "id": 2,
+    "destination": "Rome",
+    "country": "Italy",
+    "description": "Explore world - These popular destinations have a lot to offer.",
+    "main_attractions": ["Colosseum", "Vatican City", "Trevi Fountain"],
+    "best_time_to_visit": "Spring (April to June) and Fall (September to November)",
+    "currency": "Euro (EUR)",
+    "language": "Italian",
+    "local_dishes": ["Pizza Margherita", "Pasta Carbonara", "Gelato"],
+    "quantity": 800
+  },
+  {
+    "id": 3,
+    "destination": "Tokyo",
+    "country": "Japan",
+    "description": "Explore world - These popular destinations have a lot to offer.",
+    "main_attractions": ["Tokyo Skytree", "Senso-ji Temple", "Shibuya Crossing"],
+    "best_time_to_visit": "Spring (March to May) and Fall (September to November)",
+    "currency": "Japanese Yen (JPY)",
+    "language": "Japanese",
+    "local_dishes": ["Sushi", "Ramen", "Tempura"],
+    "quantity": 1200
+  },
+  {
+    "id": 4,
+    "destination": "New York City",
+    "country": "United States",
+    "description": "Explore world - These popular destinations have a lot to offer.",
+    "main_attractions": ["Statue of Liberty", "Central Park", "Times Square"],
+    "best_time_to_visit": "Spring (April to June) and Fall (September to November)",
+    "currency": "US Dollar (USD)",
+    "language": "English",
+    "local_dishes": ["Pizza", "Bagels", "Hamburger"],
+    "quantity": 1500
+  },
+  {
+    "id": 5,
+    "destination": "Sydney",
+    "country": "Australia",
+    "description": "Explore world - These popular destinations have a lot to offer.",
+    "main_attractions": ["Sydney Opera House", "Bondi Beach", "Sydney Harbour Bridge"],
+    "best_time_to_visit": "Spring (September to November) and Summer (December to February)",
+    "currency": "Australian Dollar (AUD)",
+    "language": "English",
+    "local_dishes": ["Pavlova", "Meat Pie", "Tim Tams"],
+    "quantity": 900
+  },
+  {
+    "id": 6,
+    "destination": "Cairo",
+    "country": "Egypt",
+    "description": "Explore world - These popular destinations have a lot to offer.",
+    "main_attractions": ["Pyramids of Giza", "Khan el-Khalili Bazaar", "Egyptian Museum"],
+    "best_time_to_visit": "Fall (October to November) and Spring (March to April)",
+    "currency": "Egyptian Pound (EGP)",
+    "language": "Arabic",
+    "local_dishes": ["Kebabs", "Koshari", "Baklava"],
+    "quantity": 750
+  },
+  {
+    "id": 7,
+    "destination": "Rio de Janeiro",
+    "country": "Brazil",
+    "description": "Explore world - These popular destinations have a lot to offer.",
+    "main_attractions": ["Christ the Redeemer", "Copacabana Beach", "Sugarloaf Mountain"],
+    "best_time_to_visit": "Fall (March to May) and Spring (September to November)",
+    "currency": "Brazilian Real (BRL)",
+    "language": "Portuguese",
+    "local_dishes": ["Feijoada", "Coxinha", "Açaí Bowl"],
+    "quantity": 1100
+  },
+  {
+    "id": 8,
+    "destination": "Bangkok",
+    "country": "Thailand",
+    "description": "Explore world - These popular destinations have a lot to offer.",
+    "main_attractions": ["Grand Palace", "Wat Pho", "Chatuchak Weekend Market"],
+    "best_time_to_visit": "Cool and Dry Season (November to February)",
+    "currency": "Thai Baht (THB)",
+    "language": "Thai",
+    "local_dishes": ["Pad Thai", "Tom Yum Goong", "Green Curry"],
+    "quantity": 950
+  },
+  {
+    "id": 9,
+    "destination": "Cape Town",
+    "country": "South Africa",
+    "description": "Explore world - These popular destinations have a lot to offer.",
+    "main_attractions": ["Table Mountain", "Robben Island", "Boulders Beach"],
+    "best_time_to_visit": "Spring (September to November) and Fall (March to May)",
+    "currency": "South African Rand (ZAR)",
+    "language": "Afrikaans, English",
+    "local_dishes": ["Bunny Chow", "Boerewors", "Bobotie"],
+    "quantity": 800
+  },
+  {
+    "id": 10,
+    "destination": "Dubai",
+    "country": "United Arab Emirates",
+    "description": "Explore world - These popular destinations have a lot to offer.",
+    "main_attractions": ["Burj Khalifa", "Palm Jumeirah", "Dubai Mall"],
+    "best_time_to_visit": "Winter (November to March)",
+    "currency": "UAE Dirham (AED)",
+    "language": "Arabic, English",
+    "local_dishes": ["Shawarma", "Falafel", "Hummus"],
+    "quantity": 1300
+  }
+]

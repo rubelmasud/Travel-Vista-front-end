@@ -11,8 +11,7 @@ const Banner = () => {
         </h1>
         <p className="md:py-6 mb-2">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum eum
-          cumque sit blanditiis. Lorem ipsum dolor sit amet consectetur
-          adipisicing elit. Earum eum cumque sit blanditiis.
+          cumque sit blanditiis.
         </p>
         <button className="btn-style">learn more</button>
       </div>

@@ -5,19 +5,14 @@ import { BiSearchAlt, BiCalendar } from "react-icons/bi";
 function Advantages() {
   return (
     <div>
-      <div className="md:w-7/12 mx-auto text-center ">
+      <div className="px-12 text-center ">
         <p className="lg:text-xl">Why People Choose Us</p>
         <h1 className="lg:text-4xl text-3xl font-bold">
           <span className="text-black">Our</span>
           <span className="text-[#FF4F10EB]"> Advantages</span>
         </h1>
-        <p className=" text-slate-600 my-4">
-          Aliquam erat volutpat. Curabitur tempor nibh quis arcu convallis, sed
-          viverra quam sollicitudin. Proin sed augue sed neque ultricies
-          condimentum.
-        </p>
       </div>
-      <div className="grid lg:grid-cols-4 md:grid-cols-2  justify-between items-center gap-6 px-10 mt-10">
+      <div className="grid lg:grid-cols-4 md:grid-cols-2  justify-between items-center gap-6 px-10 mt-16">
         <div className="">
           <div className=" ">
             <BsAirplaneFill

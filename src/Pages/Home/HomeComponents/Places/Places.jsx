@@ -15,23 +15,17 @@ const Places = () => {
       });
   }, []);
 
-  const visiblePlaces = showMore ? places : places.slice(0, 3);
+  const visiblePlaces = showMore ? places : places.slice(0, 4);
 
   return (
-    <div className="mx-12 ">
-      <div className="md:w-7/12 mx-auto text-center ">
-        <p className="lg:text-xl">Travel Express Provide</p>
-        <h1 className="lg:text-4xl text-3xl font-bold">
-          <span className="text-black">Select your</span>
-          <span className="text-[#FF4F10EB]"> Destination</span>
+    <div className="m-12 ">
+      <div className=" ">
+        <h1 className="lg:text-2xl text-3xl font-bold">
+          Select your Destination
         </h1>
-        <p className=" text-slate-600 my-4">
-          Aliquam erat volutpat. Curabitur tempor nibh quis arcu convallis, sed
-          viverra quam sollicitudin. Proin sed augue sed neque ultricies
-          condimentum.
-        </p>
+        <p className="lg:text-xl">Travel Express Provide</p>
       </div>
-      <div className="grid lg:grid-cols-3 md:grid-cols-2 justify-between gap-6 py-12">
+      <div className="grid lg:grid-cols-4 md:grid-cols-4 justify-between gap-6 py-6">
         {visiblePlaces.map((place) => (
           <PlaceCart key={place.id} place={place}></PlaceCart>
         ))}
