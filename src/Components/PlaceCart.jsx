@@ -22,7 +22,7 @@ const PlaceCart = ({ place }) => {
           </div>
         </div>
         <div className="flex justify-between items-center my-3">
-          <button className="bg-gray-200 px-4 ">Book Now</button>
+          <button className="bg-[#0000ced7] px-4 text-white">Book Now</button>
           <div className="">
             <Rating style={{ maxWidth: 70 }} value={rating} readOnly />
           </div>

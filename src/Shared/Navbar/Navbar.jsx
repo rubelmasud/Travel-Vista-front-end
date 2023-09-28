@@ -24,7 +24,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <nav className={`navbar  ${scrolling ? "scrolling" : ""}`}>
+    <nav className={`navbar px-12 ${scrolling ? "scrolling" : ""}`}>
       <h3 className="Logo">Travel Vista</h3>
       <ul
         className={isMobile ? "nav-links-mobile" : "nav-links"}

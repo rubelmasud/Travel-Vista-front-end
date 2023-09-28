@@ -26,7 +26,7 @@ const WorldOverview = () => {
   return (
     <div className="mx-12">
       {" "}
-      <div className=" mb-6">
+      <div className=" my-6">
         <h1 className="lg:text-2xl text-3xl font-bold">Explore World</h1>
         <p className="lg:text-xl">
           These popular destinations have a lot to offer

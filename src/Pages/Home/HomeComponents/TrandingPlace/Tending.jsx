@@ -2,7 +2,7 @@ import "./Tending.css";
 
 const Tending = () => {
   return (
-    <div className="px-12 container">
+    <div className="px-12  container">
       <div>
         <h1 className="text-2xl font-semibold"> Trending destinations</h1>
         <p>Most popular choices for travelers from World Wide</p>

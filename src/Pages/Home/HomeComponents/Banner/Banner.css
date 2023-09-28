@@ -3,8 +3,9 @@
   background-image: url(../../../../assets/mmmmmmmmm.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100vh;
+  height: 90vh;
   background-position: center center;
+  background-color: #0000ced7;
 }
 
 /* Mobile screen (up to 767px) */
