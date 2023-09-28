@@ -15,7 +15,7 @@ const WorldOverview = () => {
   };
 
   useEffect(() => {
-    fetch("/public/WorldOverview.json")
+    fetch("/WorldOverview.json")
       .then((res) => res.json())
       .then((data) => {
         console.log(data);
