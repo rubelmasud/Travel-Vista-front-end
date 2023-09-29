@@ -25,16 +25,13 @@ const Navbar = () => {
 
   return (
     <nav className={`navbar px-12 ${scrolling ? "scrolling" : ""}`}>
-      <h3 className="Logo">Travel Vista</h3>
+      <h3 className="text-2xl md:text-3xl font-semibold">Travel Vista</h3>
       <ul
         className={isMobile ? "nav-links-mobile" : "nav-links"}
         onClick={() => setInMobile(false)}
       >
         <Link to="/">
           <li>Home</li>
-        </Link>
-        <Link to="/about">
-          <li>About Us</li>
         </Link>
         <Link to="/">
           <li>Service</li>
@@ -49,6 +46,7 @@ const Navbar = () => {
           <li>Contact Us</li>
         </Link>
       </ul>
+
       <button
         className="mobile-menu-icon"
         onClick={() => setInMobile(!isMobile)}

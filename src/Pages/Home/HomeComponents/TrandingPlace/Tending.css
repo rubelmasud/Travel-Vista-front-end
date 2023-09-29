@@ -52,3 +52,9 @@
 .effect:hover img {
   transform: scale(1);
 }
+
+@media screen and (max-width: 780px) {
+  .effect img {
+    height: 100px;
+  }
+}

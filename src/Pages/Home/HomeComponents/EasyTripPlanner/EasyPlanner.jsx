@@ -27,12 +27,10 @@ const EasyPlanner = () => {
   console.log(filteredData);
 
   return (
-    <div className="mx-12">
+    <div className="lg:mx-12 md:px-6 px-4">
       <div className=" my-6">
-        <h1 className="lg:text-2xl text-3xl font-bold">
-          Quick and easy trip planner
-        </h1>
-        <p className="lg:text-xl">
+        <h1 className="text-xl  font-semibold">Quick and easy trip planner</h1>
+        <p className="">
           Pick a vibe and explore the top destinations in world
         </p>
       </div>
@@ -74,7 +72,7 @@ const EasyPlanner = () => {
         </div>
       </div>
 
-      <div className="mt-8 grid grid-cols-6">
+      <div className="mt-8 grid lg:grid-cols-6 md:grid-cols-3 grid-cols-2 gap-4">
         {filteredData.length === 0 ? (
           <p>No matching destinations found for {activeTab}.</p>
         ) : (

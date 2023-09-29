@@ -1,5 +1,6 @@
 import Advantages from "../HomeComponents/Advantages";
 import Banner from "../HomeComponents/Banner/Banner";
+// import Contact from "../HomeComponents/Contact/Contact";
 import Discount from "../HomeComponents/Discount/Discount";
 import EasyPlanner from "../HomeComponents/EasyTripPlanner/EasyPlanner";
 import FindTour from "../HomeComponents/FindTour/FindTour";
@@ -20,6 +21,7 @@ const HomePage = () => {
       <Discount />
       <Places />
       <EasyPlanner />
+      {/* <Contact /> */}
     </>
   );
 };

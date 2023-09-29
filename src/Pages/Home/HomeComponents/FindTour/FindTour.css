@@ -21,7 +21,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  z-index: 1; /* Place the pseudo-element above the background image */
+  z-index: 1;
 }
 
 .parallax-content {
@@ -31,8 +31,13 @@
   height: 50px;
   transform: translate(-50%, -50%);
   text-align: center;
-  color: white; /* Text color on top of the background */
-  /* Place the content above the pseudo-element */
+  color: white;
 }
 
 /* ----------------------------------------------- */
+
+@media screen and (max-width: 780px) {
+  .parallax {
+    height: 200px;
+  }
+}

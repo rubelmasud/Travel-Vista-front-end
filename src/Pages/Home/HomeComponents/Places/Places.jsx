@@ -18,14 +18,12 @@ const Places = () => {
   const visiblePlaces = showMore ? places : places.slice(0, 4);
 
   return (
-    <div className="m-12 ">
-      <div className=" ">
-        <h1 className="lg:text-2xl text-3xl font-bold">
-          Select your Destination
-        </h1>
-        <p className="lg:text-xl">Travel Express Provide</p>
+    <div className="lg:px-12 md:px-6 px-4 pt-12 md:text-left text-center">
+      <div className="  ">
+        <h1 className="font-semibold text-xl">Select your Destination</h1>
+        <p className="">Travel Express Provide</p>
       </div>
-      <div className="grid lg:grid-cols-4 md:grid-cols-4 justify-between gap-6 py-6">
+      <div className="grid lg:grid-cols-4 md:grid-cols-4  md:justify-between justify-center gap-6 py-6">
         {visiblePlaces.map((place) => (
           <PlaceCart key={place.id} place={place}></PlaceCart>
         ))}

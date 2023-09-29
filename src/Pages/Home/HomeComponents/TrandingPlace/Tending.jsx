@@ -2,12 +2,12 @@ import "./Tending.css";
 
 const Tending = () => {
   return (
-    <div className="px-12  container">
+    <div className="lg:px-12 md:px-6 px-4 container">
       <div>
         <h1 className="text-2xl font-semibold"> Trending destinations</h1>
         <p>Most popular choices for travelers from World Wide</p>
       </div>
-      <div className="w-full flex  my-6">
+      <div className="w-full flex mt-6 mb-2">
         <div className="effect">
           <img src="https://img.freepik.com/premium-photo/sydney-skyline-sunrise-sunrise-overlooking-famous-building-bridge-sydney-australia_745352-303.jpg?size=626&ext=jpg&ga=GA1.1.694185806.1694141924&semt=ais" />
           <a href="#">Australia</a>

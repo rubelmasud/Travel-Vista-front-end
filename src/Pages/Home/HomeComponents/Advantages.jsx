@@ -5,7 +5,7 @@ import { BiSearchAlt, BiCalendar } from "react-icons/bi";
 function Advantages() {
   return (
     <div>
-      <div className="px-12 text-center ">
+      <div className="lg:px-12 md:px-6 px-4 text-center mt-12">
         <p className="lg:text-xl">Why People Choose Us</p>
         <h1 className="lg:text-4xl text-3xl font-bold">
           <span className="text-black">Our</span>

@@ -3,7 +3,7 @@ import "./Discount.css";
 const PlaceCart = () => {
   return (
     <div className="bg-img mt-16">
-      <div className="text-container lg:w-[50%] w-[90%] flex flex-col gap-2 text-xl">
+      <div className="text-container lg:w-[50%] w-[90%] flex flex-col gap-2 md:text-xl">
         <p>SUMMER SPECIAL</p>
         <p className="text-5xl font-mono font-bold">
           <span className="text-orange-600">25% </span>

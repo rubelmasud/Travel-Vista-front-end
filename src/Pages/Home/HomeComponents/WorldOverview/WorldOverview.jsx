@@ -8,10 +8,30 @@ const WorldOverview = () => {
 
   const settings = {
     dots: true,
+    slidesToShow: 6,
     infinite: true,
     speed: 500,
-    slidesToShow: 6,
     slidesToScroll: 3,
+    responsive: [
+      {
+        breakpoint: 1024, // LG breakpoint
+        settings: {
+          slidesToShow: 6,
+        },
+      },
+      {
+        breakpoint: 768, // MD breakpoint
+        settings: {
+          slidesToShow: 3,
+        },
+      },
+      {
+        breakpoint: 576, // SM breakpoint
+        settings: {
+          slidesToShow: 2,
+        },
+      },
+    ],
   };
 
   useEffect(() => {
@@ -24,10 +44,9 @@ const WorldOverview = () => {
   }, []);
 
   return (
-    <div className="mx-12">
-      {" "}
-      <div className=" my-6">
-        <h1 className="lg:text-2xl text-3xl font-bold">Explore World</h1>
+    <div className="lg:mx-12 md:px-6 px-4">
+      <div className="my-6">
+        <h1 className="lg:text-2xl text-xl font-semibold">Explore World</h1>
         <p className="lg:text-xl">
           These popular destinations have a lot to offer
         </p>

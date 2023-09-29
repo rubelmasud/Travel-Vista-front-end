@@ -5,7 +5,7 @@ const Banner = () => {
     <div className="banner md:pt-[65px] pt-10">
       <div className=" lg:w-[75%] mx-auto w-full p-[30px]  md:my-16 text-white text-center">
         <p className="text-orange-500 font-bold md:text-2xl">WELCOME TO</p>
-        <h1 className="text-3xl md:text-5xl font-bold ">
+        <h1 className="text-2xl md:text-5xl font-bold ">
           <p> Discover Amazing Places</p>
           <p>of the world</p>
         </h1>
