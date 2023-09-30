@@ -6,7 +6,7 @@ import "./Banner.css";
 const Banner = () => {
   return (
     <div className="banner lg:pt-[25px] md:pt-10 pt-6">
-      <section className="lg:px-12 lg:w-[70%] md:px-6 px-4  gap-4 grid lg:grid-cols-5 md:grid-cols-3 grid-cols-2  ">
+      <section className="lg:px-12 lg:w-[65%] md:px-6 px-4  gap-4 grid lg:grid-cols-5 md:grid-cols-3 grid-cols-2  ">
         <div className=" ">
           <BiSolidBed />
           <button> Stays</button>

@@ -48,6 +48,11 @@ const Navbar = () => {
         <Link to="/">
           <li>Contact Us</li>
         </Link>
+        <Link to="/login">
+          <button className="login-btn bg-blue-600 px-4 py-[4px] text-white font-mono ">
+            Log In
+          </button>
+        </Link>
       </ul>
 
       <button
