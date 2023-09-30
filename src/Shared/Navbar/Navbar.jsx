@@ -25,7 +25,7 @@ const Navbar = () => {
 
   return (
     <nav className={`navbar px-12 ${scrolling ? "scrolling" : ""}`}>
-      <h3 className="text-2xl md:text-3xl font-semibold">Travel Vista</h3>
+      <h3 className=" logo text-2xl md:text-3xl font-semibold">Travel Vista</h3>
       <ul
         className={isMobile ? "nav-links-mobile" : "nav-links"}
         onClick={() => setInMobile(false)}
