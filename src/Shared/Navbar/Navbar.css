@@ -1,19 +1,20 @@
 .navbar {
-  position: fixed;
+  position: sticky;
   top: 0;
   z-index: 1;
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 65px;
-  color: white;
   width: 100%;
   transition: background-color 0.3s;
-  background-color: transparent;
+  background-color: white;
+  color: #0000ced7;
 }
 
 .navbar.scrolling {
   background-color: #0000ced7;
+  color: white;
   box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
 }
 
@@ -33,6 +34,7 @@
   cursor: pointer;
   position: relative;
   transition: color 0.3s;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 .nav-links li:hover {
   color: orangered;
@@ -61,61 +63,11 @@
   display: none;
 }
 
-.dropdown {
-  color: #fff;
-  cursor: pointer;
-  position: relative;
-  text-align: center;
-  text-decoration: none;
-  z-index: 1;
-  width: 300px;
-}
-
-.dropdown-menu {
-  background-color: #fff;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  position: absolute;
-  left: 0;
-  opacity: 0;
-  text-align: center;
-  top: 0;
-  visibility: hidden;
-  z-index: -99999;
-}
-
-.dropdown-menu li:first-child {
-  cursor: default;
-}
-
-.dropdown-menu a {
-  color: #000;
-  display: inline-block;
-  width: 100%;
-  text-decoration: none;
-  -webkit-transition: all 1s;
-  transition: all 1s;
-}
-
-.dropdown-menu a:hover {
-  color: rgba(255, 68, 0, 0.89);
-}
-
-.dropdown:hover .dropdown-menu {
-  opacity: 1;
-  visibility: visible;
-  top: 100%;
-  width: 100%;
-  -webkit-transition: all 0.5s, background, 2s 0.5s linear;
-  transition: all 0.5s, background 2s 0.5s linear;
-}
-
 @media screen and (max-width: 780px) {
   .navbar {
     justify-content: space-between;
     padding: 0 20px;
-    background-color: transparent;
+    background-color: white;
   }
 
   .nav-links {

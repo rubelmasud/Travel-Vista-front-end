@@ -1,23 +1,53 @@
-/* Default styles for the banner */
 .banner {
-  background-image: url(../../../../assets/mmmmmmmmm.jpg);
+  /* background-image: url(../../../../assets/mmmmmmmmm.jpg); */
   background-size: cover;
   background-repeat: no-repeat;
-  height: 90vh;
+  height: 80vh;
   background-position: center center;
   background-color: #0000ced7;
+}
+
+section div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  gap: 5px;
+  border-radius: 9999px;
+  padding: 6px 10px;
+  font-size: 17px;
+}
+section div:first-child {
+  border: 1px solid;
+}
+
+section div:hover {
+  background-color: #f0fdf4;
+  transition-duration: 0.5s;
+  color: black;
 }
 
 /* Mobile screen (up to 767px) */
 @media screen and (max-width: 767px) {
   .banner {
-    height: 400px;
+    height: auto;
+    text-align: center;
+  }
+  section div {
+    border: 1px solid;
+    padding: 2px 4px;
   }
 }
 
 /* Tablet screen (768px to 991px) */
 @media screen and (min-width: 768px) and (max-width: 991px) {
   .banner {
-    height: 600px;
+    height: auto;
+    text-align: center;
+    padding-bottom: 40px;
+  }
+  section div {
+    border: 1px solid;
+    padding: 2px 4px;
   }
 }

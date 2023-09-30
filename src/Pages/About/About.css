@@ -1,6 +1,7 @@
 .about-banner {
-  background-image: url("https://i.ibb.co/yBNBFQ3/bg-3.jpg");
+  /* background-image: url("https://i.ibb.co/yBNBFQ3/bg-3.jpg"); */
   height: 450px;
   background-repeat: no-repeat;
   background-size: cover;
+  background-color: #0000ced7;
 }
