@@ -25,7 +25,7 @@ const SignUp = () => {
             <span></span>
             <span></span>
             <span></span>
-            Submit
+            Resister
           </a>
         </form>
         <div className="text-center text-white">

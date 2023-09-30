@@ -12,6 +12,10 @@
   color: #0000ced7;
 }
 
+.active {
+  color: red;
+}
+
 .navbar.scrolling {
   background-color: #0000ced7;
   color: white;
@@ -39,7 +43,6 @@
   cursor: pointer;
   position: relative;
   transition: color 0.3s;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 .nav-links li:hover {
   color: orangered;

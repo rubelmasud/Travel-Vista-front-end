@@ -21,7 +21,7 @@ const Login = () => {
             <span></span>
             <span></span>
             <span></span>
-            Submit
+            Log In
           </a>
         </form>
         <div className="text-center text-white">

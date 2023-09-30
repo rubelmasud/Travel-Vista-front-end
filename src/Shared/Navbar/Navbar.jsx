@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import "./Navbar.css";
 import { useState, useEffect } from "react";
 import { BiMenuAltRight } from "react-icons/bi";
@@ -30,29 +30,34 @@ const Navbar = () => {
         className={isMobile ? "nav-links-mobile" : "nav-links"}
         onClick={() => setInMobile(false)}
       >
-        <Link to="/">
+        <NavLink
+          to="/"
+          className={({ isActive, isPending }) =>
+            isPending ? "pending" : isActive ? "active" : ""
+          }
+        >
           <li>Home</li>
-        </Link>
-        <Link to="/about">
+        </NavLink>
+        <NavLink to="/about">
           <li>About</li>
-        </Link>
-        <Link to="/service">
+        </NavLink>
+        <NavLink to="/service">
           <li>Service</li>
-        </Link>
-        <Link to="/">
+        </NavLink>
+        <NavLink to="/gallery">
           <li>Gallery</li>
-        </Link>
-        <Link to="/">
+        </NavLink>
+        <NavLink to="/blog">
           <li>Blog</li>
-        </Link>
-        <Link to="/">
+        </NavLink>
+        <NavLink to="/contact">
           <li>Contact Us</li>
-        </Link>
-        <Link to="/login">
+        </NavLink>
+        <NavLink to="/login">
           <button className="login-btn bg-blue-600 px-4 py-[4px] text-white font-mono ">
             Log In
           </button>
-        </Link>
+        </NavLink>
       </ul>
 
       <button
