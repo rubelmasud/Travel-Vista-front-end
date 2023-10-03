@@ -9,15 +9,32 @@
   width: 100%;
   transition: background-color 0.3s;
   background-color: white;
-  color: #0000ced7;
+  color: #2f24c1;
 }
 
 .active {
   color: red;
+  text-decoration: none;
+  font-size: 17px;
+  padding: 10px;
+  margin: 0 5px;
+  cursor: pointer;
+  position: relative;
+  transition: color 0.3s;
+}
+
+.default {
+  text-decoration: none;
+  font-size: 17px;
+  padding: 10px;
+  margin: 0 5px;
+  cursor: pointer;
+  position: relative;
+  transition: color 0.3s;
 }
 
 .navbar.scrolling {
-  background-color: #0000ced7;
+  background-color: #2f24c1;
   color: white;
   box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
 }
@@ -35,15 +52,6 @@
   list-style: none;
 }
 
-.nav-links li {
-  text-decoration: none;
-  font-size: 17px;
-  padding: 10px;
-  margin: 0 5px;
-  cursor: pointer;
-  position: relative;
-  transition: color 0.3s;
-}
 .nav-links li:hover {
   color: orangered;
   transition: transform 0.5s;
