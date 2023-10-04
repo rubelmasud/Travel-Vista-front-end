@@ -28,13 +28,18 @@ const EasyPlanner = () => {
 
   return (
     <div className="lg:mx-12 md:px-6 px-4">
-      <div className=" my-6">
+      <div className=" my-6" data-aos="fade-right">
         <h1 className="text-xl  font-semibold">Quick and easy trip planner</h1>
         <p className="">
           Pick a vibe and explore the top destinations in world
         </p>
       </div>
-      <div className="container mx-auto mt-8">
+      <div
+        className="container mx-auto mt-8"
+        data-aos="fade-up"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000"
+      >
         <div className="flex space-x-4">
           <button
             className={`py-2 px-4 flex items-center gap-2 rounded-full ${
@@ -72,7 +77,12 @@ const EasyPlanner = () => {
         </div>
       </div>
 
-      <div className="mt-8 grid lg:grid-cols-6 md:grid-cols-3 grid-cols-2 gap-4">
+      <div
+        className="mt-8 grid lg:grid-cols-6 md:grid-cols-3 grid-cols-2 gap-4"
+        data-aos="fade-up"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000"
+      >
         {filteredData.length === 0 ? (
           <p>No matching destinations found for {activeTab}.</p>
         ) : (

@@ -20,8 +20,19 @@ const Curved = () => {
         </svg>
       </div>
       <div className="curved-div lg:px-12 md:px-6 px-4">
-        <h1>World Regions</h1>
-        <div className="">
+        <div
+          data-aos="fade-up"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000"
+        >
+          <h1>World Regions</h1>
+        </div>
+        <div
+          className=""
+          data-aos="fade-up"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000"
+        >
           <button>Africa</button>
           <button>Asia</button>
           <button>Australia</button>
@@ -36,8 +47,20 @@ const Curved = () => {
           <button>Russia</button>
         </div>
         <div className="">
-          <h1>Most Popular Airlines</h1>
-          <div className="AirLines md:flex  justify-center">
+          <div
+            className=""
+            data-aos="fade-up"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000"
+          >
+            <h1>Most Popular Airlines</h1>
+          </div>
+          <div
+            className="AirLines md:flex  justify-center"
+            data-aos="fade-up"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000"
+          >
             <button>
               <SiJet className="text-blue-700 mx-1" size={24} />{" "}
               <span>Africa</span>

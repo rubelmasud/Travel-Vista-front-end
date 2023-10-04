@@ -21,7 +21,12 @@ const Footer = () => {
     <div>
       <footer className="lg:px-12 py-12 md:px-6 px-4 grid lg:grid-cols-3 md:grid-cols-2 lg:gap-20 gap-6  justify-between  bg-[#2f24c1] text-white">
         {/* First Column */}
-        <div className="flex flex-col gap-4">
+        <div
+          className="flex flex-col gap-4"
+          data-aos="fade-up"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000"
+        >
           <h1 className="logo text-4xl font-mono font-bold">Travel Vista</h1>
           <p>
             Pellentesque convallis, diam et feugiat volutpat, tellus ligula
@@ -42,7 +47,12 @@ const Footer = () => {
         </div>
 
         {/* Second Column */}
-        <div className="flex flex-col gap-4">
+        <div
+          className="flex flex-col gap-4"
+          data-aos="fade-up"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000"
+        >
           <div>
             <h2 className="text-2xl">Quick Links</h2>
             <div className="w-[50px] h-[2px] bg-orange-600"></div>
@@ -86,7 +96,12 @@ const Footer = () => {
         </div>
 
         {/* Third Column */}
-        <div className="flex flex-col gap-4">
+        <div
+          className="flex flex-col gap-4"
+          data-aos="fade-up"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000"
+        >
           <div>
             <h2 className="text-2xl">Recent Posts</h2>
             <div className="w-[50px] h-[2px] bg-orange-600"></div>

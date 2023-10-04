@@ -5,9 +5,12 @@ import "./Banner.css";
 
 const Banner = () => {
   return (
-    <div className="banner lg:pt-[25px] md:pt-10 pt-6">
-      <section className="lg:px-12 lg:w-[65%] md:px-6 px-4  gap-4 grid lg:grid-cols-5 md:grid-cols-3 grid-cols-2  ">
-        <div className=" ">
+    <div className="banner lg:pt-[25px] md:pt-10 pt-6" data-aos="fade-down">
+      <section
+        className="lg:px-12 lg:w-[65%] md:px-6 px-4  gap-4 grid lg:grid-cols-5 md:grid-cols-3 grid-cols-2"
+        data-aos="fade-right"
+      >
+        <div>
           <BiSolidBed />
           <button> Stays</button>
         </div>
@@ -28,7 +31,12 @@ const Banner = () => {
           <button>Airport Taxis</button>
         </div>
       </section>
-      <div className=" lg:w-[95%] mx-auto w-full p-[30px]  md:my-6 text-white ">
+      <div
+        className=" lg:w-[95%] mx-auto w-full p-[30px]  md:my-6 text-white "
+        data-aos="fade-up"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000"
+      >
         <p className="text-orange-400 font-bold md:text-xl">WELCOME TO</p>
         <h1 className="text-2xl md:text-4xl font-bold mt-3">
           Discover Amazing Places of the world

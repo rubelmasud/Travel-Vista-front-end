@@ -18,8 +18,13 @@ const Places = () => {
   const visiblePlaces = showMore ? places : places.slice(0, 4);
 
   return (
-    <div className="lg:px-12 md:px-6 px-4 pt-12 md:text-left text-center">
-      <div className="  ">
+    <div
+      className="lg:px-12 md:px-6 px-4 pt-12 md:text-left text-center"
+      data-aos="fade-up"
+      data-aos-easing="ease-out-cubic"
+      data-aos-duration="2000"
+    >
+      <div className="" data-aos="fade-right">
         <h1 className="font-semibold text-xl">Select your Destination</h1>
         <p className="">Travel Express Provide</p>
       </div>

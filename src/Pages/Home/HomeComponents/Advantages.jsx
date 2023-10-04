@@ -4,7 +4,11 @@ import { BiSearchAlt, BiCalendar } from "react-icons/bi";
 
 function Advantages() {
   return (
-    <div>
+    <div
+      data-aos="fade-up"
+      data-aos-easing="ease-out-cubic"
+      data-aos-duration="2000"
+    >
       <div className="lg:px-12 md:px-6 px-4 text-center mt-12">
         <p className="lg:text-xl">Why People Choose Us</p>
         <h1 className="lg:text-4xl text-3xl font-bold">
