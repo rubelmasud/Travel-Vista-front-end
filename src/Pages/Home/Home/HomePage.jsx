@@ -1,7 +1,6 @@
 import Advantages from "../HomeComponents/Advantages";
 import Banner from "../HomeComponents/Banner/Banner";
 import Curved from "../HomeComponents/Curved/Curved";
-// import Contact from "../HomeComponents/Contact/Contact";
 import Discount from "../HomeComponents/Discount/Discount";
 import EasyPlanner from "../HomeComponents/EasyTripPlanner/EasyPlanner";
 import FindTour from "../HomeComponents/FindTour/FindTour";
@@ -22,7 +21,6 @@ const HomePage = () => {
       <Discount />
       <Places />
       <EasyPlanner />
-      {/* <Contact /> */}
       <Curved />
     </>
   );

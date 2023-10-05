@@ -5,78 +5,146 @@ import { AiFillLinkedin, AiFillInstagram } from "react-icons/ai";
 
 const Agents = () => {
   return (
-    <div className="my-12 ">
-      <div className="md:w-7/12 mx-auto text-center">
-        <p className="lg:text-xl">Travel Guides, Tips & Advice</p>
-        <h1 className="lg:text-4xl text-3xl font-bold">
-          <span className="text-black">Travel </span>
-          <span className="text-[#FF4F10EB]"> Agents</span>
-        </h1>
-        <p className="text-slate-600 my-4">
-          Aliquam erat volutpat. Curabitur tempor nibh quis arcu convallis, sed
-          viverra quam sollicitudin. Proin sed augue sed neque ultricies
-          condimentum.
-        </p>
-      </div>
-      <div className=" grid lg:grid-cols-3 md:grid-cols-2 justify-between items-center gap-12 p-12">
-        <div className="cart shadow-xl ">
-          <img
-            className=" bg-slate-100 "
-            src="https://i.ibb.co/YkBvc50/download-1-removebg-preview.png"
-            alt=""
-          />
-          <div className="hidden">
-            <div className="info text-center justify-center px-3 ">
-              <h2 className="text-2xl font-semibold">Md Rubel Masud</h2>
-              <p className="text-xl">Front-end Developer</p>
-              <button className="btn-style w-[50%]">Hire me</button>
+    <div className="lg:px-12 md:px-6 px-4">
+      <div className="grid lg:grid-cols-4 md:grid-cols-2 gap-3">
+        <div className="">
+          <div className="our-team">
+            <div className="picture">
+              <img
+                className="img-fluid"
+                src="https://i.ibb.co/BVxxLSP/imageedit-4-2812338861.gif"
+              />
             </div>
-            <div className="icons flex justify-center gap-6 pb-3">
-              <BsFacebook className="icon" />
-              <BsGithub className="icon" />
-              <AiFillLinkedin className="icon" />
-              <AiFillInstagram className="icon" />
+            <div className="team-content">
+              <h3 className="name">Rubel Masud</h3>
+              <h4 className="title">Web Developer</h4>
             </div>
+            <ul className="social flex gap-2 justify-center">
+              <li>
+                <BsFacebook size={24} />
+              </li>
+              <li>
+                <BsGithub size={24} />
+              </li>
+              <li>
+                <AiFillLinkedin size={24} />
+              </li>
+              <li>
+                <AiFillInstagram size={24} />
+              </li>
+            </ul>
           </div>
         </div>
-        <div className="cart shadow-xl ">
-          <img
-            className=" bg-slate-100 "
-            src="https://i.ibb.co/YkBvc50/download-1-removebg-preview.png"
-            alt=""
-          />
-          <div className="hidden">
-            <div className="info text-center justify-center px-3 ">
-              <h2 className="text-2xl font-semibold">Md Rubel Masud</h2>
-              <p className="text-xl">Front-end Developer</p>
-              <button className="btn-style w-[50%]">Hire me</button>
+        <div>
+          <div className="our-team">
+            <div className="picture">
+              <img
+                className="img-fluid"
+                src="https://picsum.photos/130/130?image=839"
+              />
             </div>
-            <div className="icons flex justify-center gap-6 pb-3">
-              <BsFacebook className="icon" />
-              <BsGithub className="icon" />
-              <AiFillLinkedin className="icon" />
-              <AiFillInstagram className="icon" />
+            <div className="team-content">
+              <h3 className="name">Humayun Kobir</h3>
+              <h4 className="title">Web Developer</h4>
             </div>
+            <ul className="social flex gap-2 justify-center">
+              <li>
+                <BsFacebook size={24} />
+              </li>
+              <li>
+                <BsGithub size={24} />
+              </li>
+              <li>
+                <AiFillLinkedin size={24} />
+              </li>
+              <li>
+                <AiFillInstagram size={24} />
+              </li>
+            </ul>
           </div>
         </div>
-        <div className="cart shadow-xl ">
-          <img
-            className=" bg-slate-100 "
-            src="https://i.ibb.co/YkBvc50/download-1-removebg-preview.png"
-            alt=""
-          />
-          <div className="hidden">
-            <div className="info text-center justify-center px-3 ">
-              <h2 className="text-2xl font-semibold">Md Rubel Masud</h2>
-              <p className="text-xl">Front-end Developer</p>
-              <button className="btn-style w-[50%]">Hire me</button>
+        <div>
+          <div className="our-team">
+            <div className="picture">
+              <img
+                className="img-fluid"
+                src="https://picsum.photos/130/130?image=856"
+              />
             </div>
-            <div className="icons flex justify-center gap-6 pb-3">
-              <BsFacebook className="icon" />
-              <BsGithub className="icon" />
-              <AiFillLinkedin className="icon" />
-              <AiFillInstagram className="icon" />
+            <div className="team-content">
+              <h3 className="name">Asaduzzaman Noor</h3>
+              <h4 className="title">Web Developer</h4>
             </div>
+            <ul className="social flex gap-2 justify-center">
+              <li>
+                <BsFacebook size={24} />
+              </li>
+              <li>
+                <BsGithub size={24} />
+              </li>
+              <li>
+                <AiFillLinkedin size={24} />
+              </li>
+              <li>
+                <AiFillInstagram size={24} />
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div>
+          <div className="our-team">
+            <div className="picture">
+              <img
+                className="img-fluid"
+                src="https://picsum.photos/130/130?image=836"
+              />
+            </div>
+            <div className="team-content">
+              <h3 className="name">Abdullah Al Priyam</h3>
+              <h4 className="title">Web Developer</h4>
+            </div>
+            <ul className="social flex gap-2 justify-center">
+              <li>
+                <BsFacebook size={24} />
+              </li>
+              <li>
+                <BsGithub size={24} />
+              </li>
+              <li>
+                <AiFillLinkedin size={24} />
+              </li>
+              <li>
+                <AiFillInstagram size={24} />
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div>
+          <div className="our-team">
+            <div className="picture">
+              <img
+                className="img-fluid"
+                src="https://picsum.photos/130/130?image=836"
+              />
+            </div>
+            <div className="team-content">
+              <h3 className="name">Abu Sayed</h3>
+              <h4 className="title">Web Developer</h4>
+            </div>
+            <ul className="social flex gap-2 justify-center">
+              <li>
+                <BsFacebook size={24} />
+              </li>
+              <li>
+                <BsGithub size={24} />
+              </li>
+              <li>
+                <AiFillLinkedin size={24} />
+              </li>
+              <li>
+                <AiFillInstagram size={24} />
+              </li>
+            </ul>
           </div>
         </div>
       </div>

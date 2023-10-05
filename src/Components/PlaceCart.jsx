@@ -1,5 +1,6 @@
 import { Rating } from "@smastrom/react-rating";
 import "@smastrom/react-rating/style.css";
+import { Link } from "react-router-dom";
 
 const PlaceCart = ({ place }) => {
   const { image, destination, days, price, rating } = place || {};
@@ -22,7 +23,9 @@ const PlaceCart = ({ place }) => {
           </div>
         </div>
         <div className="flex justify-between items-center my-3">
-          <button className="bg-[#0000ced7] px-4 text-white">Book Now</button>
+          <Link to="/singleBlock">
+            <button className="bg-[#0000ced7] px-4 text-white">Book Now</button>
+          </Link>
           <div className="">
             <Rating style={{ maxWidth: 70 }} value={rating} readOnly />
           </div>

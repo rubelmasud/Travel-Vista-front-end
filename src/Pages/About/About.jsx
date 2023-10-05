@@ -12,15 +12,7 @@ function About() {
             <h3 className="text-3xl font-semibold mt-3">
               Discover Amazing Places of the World
             </h3>
-            <p className="text-[17px] text-gray-100 mt-2">
-              {" "}
-              your gateway to exploring the world s most breathtaking
-              destinations. Our passion is to inspire and assist you in planning
-              unforgettable journeys, filled with adventure, culture, and
-              discovery.
-            </p>
           </div>
-          <button className="btn-style">Learn More</button>
         </div>
       </div>
       <div className="my-20">
