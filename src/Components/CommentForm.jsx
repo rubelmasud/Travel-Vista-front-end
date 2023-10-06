@@ -1,13 +1,13 @@
 const CommentForm = () => {
   return (
     <div className="text-slate-500">
-      <div className="flex gap-4">
+      <div className="md:flex gap-4">
         <div className="my-4">
           <p>Full Name</p>
           <input
             type="text"
             placeholder=""
-            className="px-4 py-2 border border-black bg-transparent outline-none"
+            className="px-4 py-2 w-full border border-black bg-transparent outline-none"
           />
         </div>
         <div className="my-4">
@@ -15,7 +15,7 @@ const CommentForm = () => {
           <input
             type="email"
             placeholder=""
-            className="px-4 py-2 border border-black bg-transparent outline-none"
+            className="px-4 py-2 w-full  border border-black bg-transparent outline-none"
           />
         </div>
         <div className="my-4">
@@ -23,14 +23,14 @@ const CommentForm = () => {
           <input
             type="text"
             placeholder=""
-            className="px-4 py-2 border border-black bg-transparent outline-none"
+            className="px-4 py-2 w-full  border border-black bg-transparent outline-none"
           />
         </div>
       </div>
       <div className="my-4 w-full">
         <p>Your Comment Box</p>
         <textarea
-          className="px-4 py-2 border  border-black bg-transparent outline-none"
+          className="px-4 py-2 border w-full   border-black bg-transparent outline-none"
           name=""
           id=""
           cols="70"

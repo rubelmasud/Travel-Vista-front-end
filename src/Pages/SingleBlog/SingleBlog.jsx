@@ -21,7 +21,7 @@ const SingleBlog = () => {
         <div className="md:w-[70%] w-full justify-between gap-4">
           <div className="overflow-hidden">
             <img
-              className="w-full h-[60vh] hover:scale-125 duration-700"
+              className="w-full md:h-[60vh] hover:scale-125 duration-700"
               src="https://img.freepik.com/free-photo/woman-walking-big-entrance-gate-bali-indonesia_335224-378.jpg?size=626&ext=jpg&ga=GA1.1.694185806.1694141924&semt=ais"
               alt=""
             />
@@ -69,7 +69,7 @@ const SingleBlog = () => {
           <div className="w-full h-[1px] bg-gray-400"></div>
           <CommentSection />
         </div>
-        <div className="md:w-[26%] justify-center">
+        <div className="md:w-[26%] justify-center order">
           <div className="flex justify-center items-center text-center">
             <input
               type="text"
@@ -146,7 +146,7 @@ const SingleBlog = () => {
           <div className="my-10">
             <h2 className="text-2xl font-semibold ">Recent Posts</h2>
             <div className="w-[50px] h-[2px] bg-orange-600 mb-2"></div>
-            <div className="grid lg:grid-cols-3 gap-2">
+            <div className="grid grid-cols-3 gap-2">
               {[
                 "Agency",
                 "Traveling",

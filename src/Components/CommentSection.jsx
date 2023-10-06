@@ -9,7 +9,7 @@ const CommentSection = () => {
       <div className="my-6">
         <div className="flex gap-4 items-center py-6">
           <img
-            className="w-24 h-24"
+            className="md:w-24 w-12  md:h-24 h-12"
             src="https://i.ibb.co/BVxxLSP/imageedit-4-2812338861.gif"
             alt=""
           />
@@ -40,19 +40,19 @@ const CommentSection = () => {
       </div>
       {/* another user comment section */}
       <div className="">
-        <h1 className="text-5xl font-semibold text-mono text-slate-500">
+        <h1 className="md:text-5xl text-2xl font-semibold text-mono text-slate-500">
           2 Comments
         </h1>
         <div className="w-[90%] mx-auto">
           <div className="flex gap-4 items-center py-6">
             <img
-              className="w-24 h-24"
+              className="md:w-24 w-12  md:h-24 h-12"
               src="https://i.ibb.co/BVxxLSP/imageedit-4-2812338861.gif"
               alt=""
             />
             <div className="">
               <div className="flex justify-between text-slate-500">
-                <h4 className="text-xl font-semibold">John Doe</h4>
+                <h4 className="text-xl font-semibold">John </h4>
                 <h3>13 June, 2019 at 07:30</h3>
                 <h3 className="font-semibold  cursor-pointer hover:text-orange-500">
                   Reply
@@ -60,14 +60,13 @@ const CommentSection = () => {
               </div>
               <p>
                 Ut enim ad minima veniam, quis nostrum exerci tationem ullam
-                corporis suscipit den ser mori ten laboriosam, nisi ut aliquid
-                ex ea commodi consequatur.
+                corporis suscipit den ser
               </p>
             </div>
           </div>
-          <div className="flex gap-4 items-center py-6 translate-x-10">
+          <div className="flex gap-4 items-center py-6 md:translate-x-10">
             <img
-              className="w-24 h-24"
+              className="md:w-24 w-12  md:h-24 h-12"
               src="https://i.ibb.co/BVxxLSP/imageedit-4-2812338861.gif"
               alt=""
             />
@@ -81,20 +80,19 @@ const CommentSection = () => {
               </div>
               <p>
                 Ut enim ad minima veniam, quis nostrum exerci tationem ullam
-                corporis suscipit den ser mori ten laboriosam, nisi ut aliquid
-                ex ea commodi consequatur.
+                corporis suscipit den .
               </p>
             </div>
           </div>
           <div className="flex gap-4 items-center py-6">
             <img
-              className="w-24 h-24"
+              className="md:w-24 w-12  md:h-24 h-12"
               src="https://i.ibb.co/BVxxLSP/imageedit-4-2812338861.gif"
               alt=""
             />
             <div className="">
               <div className="flex justify-between text-slate-500">
-                <h4 className="text-xl font-semibold">John Doe</h4>
+                <h4 className="text-xl font-semibold">John </h4>
                 <h3>13 June, 2019 at 07:30</h3>
                 <h3 className="font-semibold  cursor-pointer hover:text-orange-500">
                   Reply
@@ -102,8 +100,7 @@ const CommentSection = () => {
               </div>
               <p>
                 Ut enim ad minima veniam, quis nostrum exerci tationem ullam
-                corporis suscipit den ser mori ten laboriosam, nisi ut aliquid
-                ex ea commodi consequatur.
+                corporis suscipit den .
               </p>
             </div>
           </div>
