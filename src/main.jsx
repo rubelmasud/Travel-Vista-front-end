@@ -12,6 +12,7 @@ import SignUp from "./Pages/SignUp/SignUp";
 import { Service } from "./Pages/Service/Service";
 import Blog from "./Pages/Blog/Blog";
 import SingleBlog from "./Pages/SingleBlog/SingleBlog";
+import Contact from "./Pages/Contact/Contact";
 
 const router = createBrowserRouter([
   {
@@ -39,6 +40,10 @@ const router = createBrowserRouter([
       {
         path: "/singleBlock",
         element: <SingleBlog />,
+      },
+      {
+        path: "/contact",
+        element: <Contact />,
       },
     ],
   },

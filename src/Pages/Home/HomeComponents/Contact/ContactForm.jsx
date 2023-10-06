@@ -1,6 +1,6 @@
 import "./Contact.css";
 
-const Contact = () => {
+const ContactForm = () => {
   return (
     <section className="mt-20 w-auto lg:px-12 md:px-6 px-4">
       <div className="content-1 ">
@@ -44,4 +44,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default ContactForm;

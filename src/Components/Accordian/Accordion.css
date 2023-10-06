@@ -1,0 +1,11 @@
+.category p {
+  border: 1px solid orangered;
+  padding: 8px 24px;
+  font-size: 20px;
+  font-weight: 600px;
+}
+.category p:hover {
+  background-color: #0000ced7;
+  animation-duration: 0.5s;
+  color: white;
+}

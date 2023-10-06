@@ -1,0 +1,33 @@
+[
+  {
+    "id": 1,
+    "question": "How do I book a flight?",
+    "answer": "You can book a flight by visiting our website, selecting your departure and destination, choosing your travel dates, and completing the booking process."
+  },
+  {
+    "id": 2,
+    "question": "What documents do I need for international travel?",
+    "answer": "For international travel, you typically need a valid passport, and depending on your destination, you may also need a visa. Make sure to check the specific requirements for your destination country."
+  },
+  {
+    "id": 3,
+    "question": "Can I cancel or change my flight reservation?",
+    "answer": "Yes, you can cancel or change your flight reservation, but it may be subject to our airline's policies and fees. Please log in to your account to manage your bookings."
+  },
+  {
+    "id": 4,
+    "question": "What should I pack for a beach vacation?",
+    "answer": "For a beach vacation, pack essentials like swimwear, sunscreen, beach towels, and comfortable clothing. Don't forget sunglasses, a hat, and a good book to read on the beach!"
+  },
+  {
+    "id": 5,
+    "question": "Are travel insurance policies available?",
+    "answer": "Yes, we offer travel insurance options that you can add to your booking to protect your trip from unexpected events like cancellations, delays, or medical emergencies."
+  },
+  {
+    "id": 6,
+    "question": "How can I find the best hotel deals?",
+    "answer": "To find the best hotel deals, use our search filters to sort by price, location, and guest reviews. Booking in advance and being flexible with your travel dates can also help you find great deals."
+  }
+ 
+]
