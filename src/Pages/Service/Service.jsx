@@ -1,5 +1,6 @@
 import Support from "../../Components/SupportSection/Support";
 import Watch from "../../Components/TourViedo/Watch";
+import Agents from "../Home/HomeComponents/TravelAgentSection/Agents";
 
 export const Service = () => {
   return (
@@ -16,6 +17,8 @@ export const Service = () => {
       </div>
       <Support />
       <Watch />
+
+      <Agents />
     </div>
   );
 };

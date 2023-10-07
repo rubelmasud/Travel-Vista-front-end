@@ -63,7 +63,7 @@ const WorldOverview = () => {
             <div className="overflow-hidden">
               <img
                 className="w-40 h-28 rounded-md transform hover:scale-110 duration-500"
-                src="https://img.freepik.com/free-photo/vertical-shot-niteroi-contemporary-art-museum-brazil_181624-27249.jpg?size=626&ext=jpg&ga=GA1.1.694185806.1694141924&semt=ais"
+                src={country.image}
                 alt=""
               />
             </div>
