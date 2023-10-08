@@ -1,0 +1,62 @@
+[
+  {
+    "travelerName": "Alice Johnson",
+    "comment": "I had an amazing experience on my recent trip. The scenery was breathtaking, and the accommodations were top-notch.",
+    "image": "https://i.ibb.co/7j73wqj/user-icon-149329-removebg-preview.png",
+    "rating": 5
+  },
+  {
+    "travelerName": "Bob Smith",
+    "comment": "The trip exceeded my expectations! The tour guide was knowledgeable, and I made lifelong friends along the way.",
+   "image": "https://i.ibb.co/7j73wqj/user-icon-149329-removebg-preview.png",
+    "rating": 4.5
+  },
+  {
+    "travelerName": "Emily Davis",
+    "comment": "I can't wait to go back! The food was delicious, and the cultural experiences were eye-opening.",
+    "image": "https://i.ibb.co/7j73wqj/user-icon-149329-removebg-preview.png",
+    "rating": 4
+  },
+  {
+    "travelerName": "David White",
+    "comment": "I had a fantastic time exploring new places. The activities were diverse, and the weather was perfect.",
+  "image": "https://i.ibb.co/7j73wqj/user-icon-149329-removebg-preview.png",
+    "rating": 5
+  },
+  {
+    "travelerName": "Grace Taylor",
+    "comment": "This trip was a dream come true! I felt safe and well taken care of throughout the journey.",
+"image": "https://i.ibb.co/7j73wqj/user-icon-149329-removebg-preview.png",
+    "rating": 4.7
+  },
+  {
+    "travelerName": "John Brown",
+    "comment": "The adventure of a lifetime! I would recommend this tour to anyone looking for excitement and beauty.",
+  "image": "https://i.ibb.co/7j73wqj/user-icon-149329-removebg-preview.png",
+    "rating": 4.8
+  },
+  {
+    "travelerName": "Sophia Clark",
+    "comment": "I had a blast exploring new cultures. The locals were friendly, and I learned so much during my travels.",
+ "image": "https://i.ibb.co/7j73wqj/user-icon-149329-removebg-preview.png",
+    "rating": 4.6
+  },
+  {
+    "travelerName": "Michael Lee",
+    "comment": "I'm already planning my next trip! The landscapes were surreal, and I can't get enough of this destination.",
+ "image": "https://i.ibb.co/7j73wqj/user-icon-149329-removebg-preview.png",
+    "rating": 4.9
+  },
+  {
+    "travelerName": "Olivia Adams",
+    "comment": "The trip was a perfect mix of adventure and relaxation. I returned home feeling rejuvenated and inspired.",
+ "image": "https://i.ibb.co/7j73wqj/user-icon-149329-removebg-preview.png",
+    "rating": 4.5
+  },
+  {
+    "travelerName": "Daniel Hernandez",
+    "comment": "An unforgettable journey! I had the opportunity to try new activities and make memories that will last a lifetime.",
+  "image": "https://i.ibb.co/7j73wqj/user-icon-149329-removebg-preview.png",
+    "rating": 4.7
+  }
+]

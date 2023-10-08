@@ -9,7 +9,7 @@ function Advantages() {
       data-aos-easing="ease-out-cubic"
       data-aos-duration="2000"
     >
-      <div className="lg:px-12 md:px-6 px-4 text-center mt-12">
+      <div className="lg:px-12 md:px-6 px-4 text-center">
         <p className="lg:text-xl">Why People Choose Us</p>
         <h1 className="lg:text-4xl text-3xl font-bold">
           <span className="text-black">Our</span>

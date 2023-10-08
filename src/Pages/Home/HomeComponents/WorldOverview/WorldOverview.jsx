@@ -44,22 +44,21 @@ const WorldOverview = () => {
   }, []);
 
   return (
-    <div className="lg:mx-12 md:px-6 px-4" data-aos="fade-up">
+    <div
+      className="lg:px-12 md:px-6 px-4"
+      data-aos="fade-up"
+      data-aos-easing="ease-out-cubic"
+      data-aos-duration="2000"
+    >
       <div className="my-6">
-        <h1 className="lg:text-2xl text-xl font-semibold">Explore World</h1>
+        <h1 className=" text-xl font-semibold">Explore World</h1>
         <p className="lg:text-xl">
           These popular destinations have a lot to offer
         </p>
       </div>
       <Slider {...settings}>
         {countrys.map((country) => (
-          <div
-            className=""
-            key={country.data}
-            data-aos="fade-right"
-            data-aos-offset="300"
-            data-aos-easing="ease-in-sine"
-          >
+          <div className="" key={country.data}>
             <div className="overflow-hidden">
               <img
                 className="w-40 h-28 rounded-md transform hover:scale-110 duration-500"

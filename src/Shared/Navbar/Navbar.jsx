@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { NavLink, useLocation } from "react-router-dom";
+import { Link, NavLink, useLocation } from "react-router-dom";
 import { BiMenuAltRight } from "react-icons/bi";
 import { AiOutlineClose } from "react-icons/ai";
 import "./Navbar.css";
@@ -29,7 +29,11 @@ const Navbar = () => {
 
   return (
     <nav className={`navbar px-12 ${scrolling ? "scrolling" : ""}`}>
-      <h3 className="logo text-2xl md:text-3xl font-semibold">Travel Vista</h3>
+      <Link to="/">
+        <h3 className="logo text-2xl md:text-3xl font-semibold">
+          Travel Vista
+        </h3>
+      </Link>
       <ul
         className={isMobile ? "nav-links-mobile" : "nav-links"}
         onClick={toggleMobileMenu}

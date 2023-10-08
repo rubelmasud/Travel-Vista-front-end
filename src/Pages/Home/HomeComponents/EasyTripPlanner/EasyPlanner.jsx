@@ -27,8 +27,8 @@ const EasyPlanner = () => {
   console.log(filteredData);
 
   return (
-    <div className="lg:mx-12 md:px-6 px-4">
-      <div className=" my-6" data-aos="fade-right">
+    <div className="lg:px-12 md:px-6 px-4">
+      <div className=" my-6">
         <h1 className="text-xl  font-semibold">Quick and easy trip planner</h1>
         <p className="">
           Pick a vibe and explore the top destinations in world

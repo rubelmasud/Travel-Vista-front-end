@@ -9,6 +9,8 @@ import PlaceSearch from "../HomeComponents/PlaceSearch";
 import Places from "../HomeComponents/Places/Places";
 import Tending from "../HomeComponents/TrandingPlace/Tending";
 import WorldOverview from "../HomeComponents/WorldOverview/WorldOverview";
+import Counted from "../../../Components/Counted";
+import Testimonial from "../HomeComponents/Testimonial/Testimonial";
 
 const HomePage = () => {
   return (
@@ -16,13 +18,15 @@ const HomePage = () => {
       <Banner />
       <PlaceSearch />
       <Advantages />
+      <Counted />
       <FindTour />
-      <Tending />
       <WorldOverview />
+      <EasyPlanner />
       <Discount />
       <Places />
-      <EasyPlanner />
+      <Tending />
       {/* <ContactForm /> */}
+      <Testimonial />
       <Curved />
     </>
   );
