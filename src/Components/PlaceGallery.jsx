@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { GrLinkNext, GrLinkPrevious } from "react-icons/gr";
 
-const GallerySlider = () => {
+const PlaceGallery = () => {
   const [positionIndexes, setPositionIndexes] = useState([0, 1, 2, 3, 4]);
   const [images, setImages] = useState([0, 1, 2, 3, 4]);
 
@@ -76,4 +76,4 @@ const GallerySlider = () => {
   );
 };
 
-export default GallerySlider;
+export default PlaceGallery;

@@ -11,7 +11,7 @@ import Places from "../HomeComponents/Places/Places";
 import WorldOverview from "../HomeComponents/WorldOverview/WorldOverview";
 import Counted from "../../../Components/Counted";
 import Testimonial from "../HomeComponents/Testimonial/Testimonial";
-import GallerySlider from "../../../Components/gallerySlider";
+import GallerySlider from "../../../Components/PlaceGallery";
 
 const HomePage = () => {
   return (
