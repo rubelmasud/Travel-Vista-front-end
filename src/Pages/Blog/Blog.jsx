@@ -4,7 +4,7 @@ import BlogCart from "../../Components/BlogCart";
 const Blog = () => {
   const [blogs, setBlogs] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
-  const blogsPerPage = 3;
+  const blogsPerPage = 6;
 
   useEffect(() => {
     fetch("/plece.json")

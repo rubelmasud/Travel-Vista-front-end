@@ -38,10 +38,10 @@ const Banner = () => {
         data-aos-duration="2000"
       >
         <p className="text-orange-400 font-bold md:text-xl">WELCOME TO</p>
-        <h1 className="text-2xl md:text-4xl font-bold mt-3">
+        <h1 className="text-2xl md:text-4xl font-bold mt-5">
           Discover Amazing Places of the world
         </h1>
-        <p className=" mb-4 mt-2">
+        <p className=" mb-10 mt-4">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum eum
           cumque sit blanditiis.
         </p>
