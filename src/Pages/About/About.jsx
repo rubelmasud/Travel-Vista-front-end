@@ -1,6 +1,7 @@
 import ExclusivePackages from "../../Components/About/PackegesSection/ExclusivePackages";
 import TravelVistaOverview from "../../Components/About/TravelVistaOverview";
-import GallerySlider from "../../Components/gallerySlider";
+// import GallerySlider from "../../Components/GallerySlider";
+
 import Agents from "../Home/HomeComponents/TravelAgentSection/Agents";
 import "./About.css";
 function About() {
@@ -18,7 +19,7 @@ function About() {
       </div>
       <div className="my-20">
         <TravelVistaOverview />
-        <GallerySlider />
+        {/* <GallerySlider /> */}
         <ExclusivePackages />
         <Agents />
       </div>
