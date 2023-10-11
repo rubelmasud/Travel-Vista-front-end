@@ -7,10 +7,11 @@ import EasyPlanner from "../HomeComponents/EasyTripPlanner/EasyPlanner";
 import FindTour from "../HomeComponents/FindTour/FindTour";
 import PlaceSearch from "../HomeComponents/PlaceSearch";
 import Places from "../HomeComponents/Places/Places";
-import Tending from "../HomeComponents/TrandingPlace/Tending";
+// import Tending from "../HomeComponents/TrandingPlace/Tending";
 import WorldOverview from "../HomeComponents/WorldOverview/WorldOverview";
 import Counted from "../../../Components/Counted";
 import Testimonial from "../HomeComponents/Testimonial/Testimonial";
+import GallerySlider from "../../../Components/gallerySlider";
 
 const HomePage = () => {
   return (
@@ -24,8 +25,8 @@ const HomePage = () => {
       <EasyPlanner />
       <Discount />
       <Places />
-      <Tending />
-      {/* <ContactForm /> */}
+      {/* <Tending /> */}
+      <GallerySlider />
       <Testimonial />
       <Curved />
     </>

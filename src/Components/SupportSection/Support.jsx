@@ -17,12 +17,17 @@ const Support = () => {
           <h2>Every Time We Provide</h2>
           <h2 className="text-orange-600">Best Service</h2>
         </div>
-        <div className="text-gray-600 text-lg my-4">
+        <div className="text-gray-600 text-lg my-4 flex flex-col gap-6">
           <p>
             Aliquam erat volutpat. Curabitur tempor nibh quis arcu convallis,
             sed viverra quam sollicitudin. Proin sed augue sed neque ultricies
             condimentum. In ac ultrices lectus. Nullam ex elit, vestibulum ut
             urna non, tincidunt condimentum sem. Sed enim tortor, accumsan.
+          </p>
+          <p>
+            Nullam ex elit, vestibulum ut urna non, tincidunt condimentum sem.
+            Sed enim tortor, accumsan. Nullam ex elit, vestibulum ut urna non,
+            tincidunt condimentum.
           </p>
           <p>
             Nullam ex elit, vestibulum ut urna non, tincidunt condimentum sem.
